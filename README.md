@@ -25,7 +25,7 @@ All processing is **100% local** — no data ever leaves your machine.
 ## Install
 
 ```bash
-openclaw plugins install @t00lz/dev-tools
+openclaw plugins install @t00lzcom/dev-tools
 ```
 
 Or from source:
