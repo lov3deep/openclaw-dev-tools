@@ -78,7 +78,7 @@ Agent: Words: 142 | Characters: 891 | Reading time: 43s
 
 ## Contributing
 
-Issues and PRs welcome at [github.com/t00lz/openclaw-dev-tools](https://github.com/t00lz/openclaw-dev-tools).
+Issues and PRs welcome at [github.com/t00lzcom/openclaw-dev-tools](https://github.com/t00lzcom/openclaw-dev-tools).
 
 For more free developer tools, visit **[t00lz.com](https://t00lz.com)**.
 
