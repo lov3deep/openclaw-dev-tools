@@ -1,0 +1,37 @@
+{
+  "id": "t00lz-dev-tools",
+  "name": "T00lz Dev Tools",
+  "version": "1.0.0",
+  "description": "Essential developer utilities from T00lz.com — format JSON, encode/decode Base64, generate secure passwords, convert Markdown to HTML, count words, and more. All processing is local; no data leaves your machine.",
+  "author": "T00LZ <t000lz.com@gmail.com>",
+  "homepage": "https://t00lz.com",
+  "license": "MIT",
+  "openclaw": {
+    "extensions": ["./src/tools.ts"],
+    "tools": true
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "passwordDefaultLength": {
+        "type": "number",
+        "default": 20,
+        "description": "Default length for generated passwords"
+      },
+      "passwordDefaultSymbols": {
+        "type": "boolean",
+        "default": true,
+        "description": "Include symbols in generated passwords by default"
+      }
+    }
+  },
+  "uiHints": {
+    "plugins.entries.t00lz-dev-tools.config.passwordDefaultLength": {
+      "label": "Default Password Length",
+      "placeholder": "20"
+    },
+    "plugins.entries.t00lz-dev-tools.config.passwordDefaultSymbols": {
+      "label": "Include Symbols by Default"
+    }
+  }
+}
