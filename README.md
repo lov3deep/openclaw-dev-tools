@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # T00lz Dev Tools — OpenClaw Plugin
 
 > 8 essential developer utilities from [t00lz.com](https://t00lz.com), available directly in your OpenClaw AI assistant.
@@ -84,3 +85,6 @@ For more free developer tools, visit **[t00lz.com](https://t00lz.com)**.
 ## License
 
 MIT
+=======
+# openclaw-dev-tools
+>>>>>>> ce029e83180314ddb384a40a94bbd727f698c599
